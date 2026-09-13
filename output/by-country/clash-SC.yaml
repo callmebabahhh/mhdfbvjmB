@@ -6,21 +6,22 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - xiaohe
   type: vless
-  server: 162.159.43.187
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 104.21.78.225
+  port: 443
+  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: curly-night-6928.ggdhchjk.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /sync
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: curly-night-6928.ggdhchjk.workers.dev
 - name: 🇸🇨 SC 02 - xiaohe
   type: vless
-  server: 162.159.43.187
-  port: 8080
+  server: 172.64.154.8
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -32,34 +33,63 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇸🇨 SC 03 - xiaohe
   type: vless
-  server: 162.159.45.19
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 172.67.152.162
+  port: 443
+  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: app-q0zc4t.user-4gfyh5.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls+
+    path: /cmh
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: app-q0zc4t.user-4gfyh5.workers.dev
 - name: 🇸🇨 SC 04 - xiaohe
   type: vless
-  server: 104.18.46.46
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 45.130.125.73
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-cea58e4acf49
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: web-app-aug8yr.app-f1qsy1.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /api/ws
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: web-app-aug8yr.app-f1qsy1.workers.dev
 - name: 🇸🇨 SC 05 - xiaohe
   type: vless
-  server: 162.159.48.32
-  port: 2086
+  server: 141.101.114.245
+  port: 443
+  uuid: 3bb6fd82-3a15-eaea-6168-4dac2b70079e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nahan-fog-af01.dfghttr2012.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-fog-af01.dfghttr2012.workers.dev
+- name: 🇸🇨 SC 06 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇸🇨 SC 07 - xiaohe
+  type: vless
+  server: 162.159.24.131
+  port: 8880
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -69,9 +99,23 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 06 - xiaohe
+- name: 🇸🇨 SC 08 - xiaohe
   type: vless
-  server: 162.159.45.19
+  server: 172.67.130.144
+  port: 443
+  uuid: 7da33b25-cdd6-e481-afcf-c5d532361a70
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ez-1bc8ab.sekiro-c18.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: ez-1bc8ab.sekiro-c18.workers.dev
+- name: 🇸🇨 SC 09 - xiaohe
+  type: vless
+  server: 162.159.38.127
   port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -82,6 +126,20 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇨 SC 10 - xiaohe
+  type: vless
+  server: 104.21.5.173
+  port: 443
+  uuid: 7c6a566b-4c4a-b8f2-1719-a3096b424141
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: peekconfigg.vipserver1-39d.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: peekconfigg.vipserver1-39d.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -93,6 +151,10 @@ proxy-groups:
   - 🇸🇨 SC 04 - xiaohe
   - 🇸🇨 SC 05 - xiaohe
   - 🇸🇨 SC 06 - xiaohe
+  - 🇸🇨 SC 07 - xiaohe
+  - 🇸🇨 SC 08 - xiaohe
+  - 🇸🇨 SC 09 - xiaohe
+  - 🇸🇨 SC 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -104,5 +166,9 @@ proxy-groups:
   - 🇸🇨 SC 04 - xiaohe
   - 🇸🇨 SC 05 - xiaohe
   - 🇸🇨 SC 06 - xiaohe
+  - 🇸🇨 SC 07 - xiaohe
+  - 🇸🇨 SC 08 - xiaohe
+  - 🇸🇨 SC 09 - xiaohe
+  - 🇸🇨 SC 10 - xiaohe
 rules:
 - MATCH,PROXIES
