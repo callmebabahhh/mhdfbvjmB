@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 104.21.70.21
+  server: 172.67.187.121
   port: 443
-  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
+  uuid: f8546acb-185c-43a9-8065-b901c9f353c9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fornewiran.ade-1000.workers.dev
+  servername: jtv3y5hswdq0iiykejteoqqecsx.uybhnhbhbj.workers.dev
   network: ws
   ws-opts:
-    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
+    path: /vl/lQvZpD6BDBDFcrhffa1JYDt?ed=2560
     headers:
-      Host: fornewiran.ade-1000.workers.dev
+      Host: jtv3y5hswdq0iiykejteoqqecsx.uybhnhbhbj.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
