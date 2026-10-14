@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇬 BG 01 - xiaohe
+- name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
   type: vless
-  server: 85.217.170.89
+  server: 104.18.155.229
   port: 443
-  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
+  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: rnxq-1lpi3m.linmeisoft.com
+  servername: www.genflix.co.id.r3xxe.eu.cc
   network: ws
   ws-opts:
-    path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
+    path: /au-do
     headers:
-      Host: rnxq-1lpi3m.linmeisoft.com
+      Host: www.genflix.co.id.r3xxe.eu.cc
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇬 BG 01 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇬 BG 01 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
 rules:
 - MATCH,PROXIES
