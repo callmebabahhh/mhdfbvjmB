@@ -22,14 +22,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: pl.flen-vpn.xyz
-- name: 🇵🇱 PL 03 - xiaohe
-  type: vless
-  server: milo.rubinaz.xyz
-  port: 8080
-  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
-  udp: true
-  tls: false
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -37,7 +29,6 @@ proxy-groups:
   - AUTO
   - 🇵🇱 PL 01 - xiaohe
   - 🇵🇱 PL 02 - xiaohe
-  - 🇵🇱 PL 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -45,6 +36,5 @@ proxy-groups:
   proxies:
   - 🇵🇱 PL 01 - xiaohe
   - 🇵🇱 PL 02 - xiaohe
-  - 🇵🇱 PL 03 - xiaohe
 rules:
 - MATCH,PROXIES
